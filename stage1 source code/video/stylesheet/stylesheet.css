@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body 
+{
+	height:100%; /* fix height to 100% for IE */
+	max-height:100%; /* fix height for other browsers */	
+	border:0; /* remove borders */
+	background:#fff; /*color background - only works in IE */
+	font-size:80%; /*set default font size */
+	font-family:"trebuchet ms", tahoma, verdana, arial, sans-serif; /* set default font */
+	
+}
+body 
+{
+		/*height:100%; /* fix height to 100% for IE */
+		/*max-height:100%; /* fix height for other browsers */
+		/*overflow:hidden; /*get rid of scroll bars in IE */
+		/*padding:0; /*remove padding */
+		/*margin:0; /* remove margins */
+		/*border:0; /* remove borders */
+} 
+
+#content 
+{
+	display:block; 
+	height:100%; 
+	margin:auto;
+	max-height:100%; 
+	overflow:auto; 
+	width:1000px;
+	/*padding-left:200px; */
+	position:relative; 
+	z-index:3; 
+	word-wrap:break-word;
+}
+
+.divLeft
+{
+	width:990px;
+	height:440px;
+	float:left;
+}
+
+.divRight
+{
+	width:200px;
+	height:600px;
+	float:left;
+	border-left:1px solid #333;
+}
+
+.userBlock
+{
+	width:250px;
+	height:30px;
+	border:1px solid #CCC;
+	font-size:13px;
+}
+
+.spacer
+{
+margin:0;
+padding:0;
+line-height:0;
+clear:both;
+}
+.spacer10
+{
+margin:0;
+padding:0;
+line-height:10px;
+clear:both;
+}
+
+.spacer15
+{
+margin:0;
+padding:0;
+line-height:15px;
+clear:both;
+}
+.spacer18
+{
+margin:0;
+padding:0;
+line-height:18px;
+clear:both;
+}
+
+.spacer20
+{
+margin:0;
+padding:0;
+line-height:20px;
+clear:both;
+}
+.spacer30
+{
+margin:0;
+padding:0;
+line-height:30px;
+clear:both;
+}
+
+.line_spacer
+{
+
+line-height:18px;
+width:99%;
+margin:6px auto 4px auto;
+
+padding:0;
+
+background-color:#C9C9C9;
+clear:both;
+}

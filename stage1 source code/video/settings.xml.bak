@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<settings>
+  <!-- This is the rtmp connection to your influxis account -->
+  <!--rtmp path="rtmp://cwsktb32fxr.rtmphost.com/LivePresenter" /-->
+   <rtmp path="rtmp://198.245.51.44/live" />
+</settings>
